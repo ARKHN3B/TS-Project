@@ -1,0 +1,23 @@
+{
+    // # 1) Options du transpiler
+    "compilerOptions" : {
+        "module" : "system",       // Spécifie le module du 'code generation' (tsc)
+        "noImplicitAny" : true,      // Va forcer à demander un type (non any)
+        "target" : "ES6",            // Je veux cibler de l'es2017
+        "sourceMap" : true,          // Permet de générer le mappage (console.log des ts affichés à la place des console.log Js)
+        "pretty" : true,             // Je veux une jolie couleur si il y a des erreurs
+        "preserveConstEnums" : true, // N'effaces pas les constantes déclarées
+        "experimentalDecorators": true,
+        "rootDir" : "./Ts",          // cibler le dossier d'entrée
+        // "outDir" : "./Js",           // cibler le dossier de destination de la compilation
+        "outFile": "./JS/main.js"
+    },
+
+    // # 2) les targets
+    // "files" : [
+        
+    // ],
+
+    // # 3) Exclure des fichiers/dossiers comme NodeJS
+    "excluse" : ["node_modules"]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles/css/styles.css">
+    </head>
+
+    <body>
+        
+        <h1>Budget : <span id="dep"></span> $ </h1>
+        <div id="spent">
+            <!-- <div class="spent">
+                <h3>Courndqwk</h3>
+                <h4>345 $</h4>
+            </div> -->
+        </div>
+
+        <button id="butt-form">+</button>
+
+        <form action="">
+            <input type="text" id="title">
+            <input type="number" id="value">
+            <textarea id="description" cols="30" rows="10"></textarea>
+            <select id="cat">
+
+            </select>
+            <label for="submit" id="label-submit">Send</label><input type="submit" id="submit" style="display: none">
+        </form>
+        
+        <script src="node_modules/systemjs/dist/system.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="Js/main.js"></script>
+        <script>
+            System.import('main')
+                  .catch(err => { console.error(err); });
+        </script>
+    </body>
+</html>

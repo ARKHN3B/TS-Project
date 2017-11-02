@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body #back {
+    position: fixed;
+    top: 1%;
+    right: 3%;
+    font-family: "Lato";
+    font-size: 25px;
+    color: #292929;
+    cursor: pointer; }
+  body form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body form input {
+      width: 50vw;
+      height: 3vh;
+      margin-top: 5%; }
+    body form #submit {
+      width: 51vw;
+      background-color: #5f5ff3; }
+  body section[data-section="category"] {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #505cff; }
+    body section[data-section="category"] .category {
+      width: 30%;
+      height: calc((100vw * 30)/ 100);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; }
+      body section[data-section="category"] .category h3 {
+        font-family: "Lato";
+        color: #1b1b1b;
+        font-size: 33px;
+        text-transform: uppercase; }
+    body section[data-section="category"] div[data-category="1"] {
+      background-color: darkred; }
+      body section[data-section="category"] div[data-category="1"] h3 {
+        color: #d8d8d8; }
+    body section[data-section="category"] div[data-category="2"] {
+      background-color: #fffbd5; }
+    body section[data-section="category"] div[data-category="3"] {
+      background-color: #ffc53c; }
+  body section[data-section="list"] {
+    width: 100%;
+    height: 100%;
+    background-color: #ff4e4e; }
+    body section[data-section="list"] ul li {
+      font-family: "Lato";
+      font-size: 25px; }
+      body section[data-section="list"] ul li span {
+        font-size: 40px;
+        margin-right: 3px; }
+  body section[data-section="product"] {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #c8ffc6; }
+    body section[data-section="product"] #image {
+      width: 20%;
+      height: calc((100vw * 20)/100);
+      background-color: rebeccapurple;
+      margin: 5%; }
+    body section[data-section="product"] h4 {
+      font-family: "Lato";
+      color: darkolivegreen;
+      font-size: 35px; }

@@ -1,0 +1,184 @@
+body {
+
+    margin: 0px;
+
+    width: 100%;
+    height: 100vh;
+
+    #menu {
+        position: fixed;
+        top: 2%;
+        left: 22.4%;
+
+        width: 11%;
+
+        display: flex;
+        justify-content: space-around;
+
+        button {
+            width: 40px;
+            height: 40px;
+            margin: 0px;
+
+            padding-top: 3px;
+
+            background-color: rgba(255, 128, 89, 0.95);
+            border-radius: 50%;
+
+            font-family: "Helvetica Neue";
+            color: white;
+
+            cursor: pointer;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        p:hover {
+            backgound-color: rgb(255, 136, 136)
+        }
+    }
+
+    #actualClient {
+        position: fixed;
+        top: 0%;
+        right: 3%;
+
+        font-size: xx-large;
+        font-family: "Helvetica";
+        color: white;
+    }
+
+    section {
+
+        background-color: rgb(238, 81, 81);
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            position: fixed;
+
+            font-family: "Helvetica Neue";
+            color: #cbe5e5;
+        }
+
+        .container {
+
+            background-color: rgba(255, 255, 255, 0.774);
+            box-shadow: 10px 14px 25px -8px rgba(0,0,0,0.75);
+
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            margin-left: 30px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            cursor: pointer;
+
+            [data-type="item1"] { 
+                background-color: rgb(66, 170, 255);
+            }
+
+            [data-type="item2"] { 
+                background-color: rgb(59, 119, 168);
+            }
+
+            [data-type="item3"] { 
+                background-color: rgb(56, 215, 255);
+            }
+
+            [data-type="item4"] { 
+                background-color: rgb(92, 90, 216);
+            }
+
+            [data-type="item5"] { 
+                background-color: rgb(5, 11, 99);
+            }
+
+            [data-type="item6"] { 
+                background-color: rgb(56, 126, 255);
+            }
+
+
+            [data-type="item7"] { 
+                background-color: rgb(71, 13, 13);
+            }
+
+            [data-type="item8"] { 
+                background-color: rgb(168, 59, 92);
+            }
+
+            [data-type="item9"] { 
+                background-color: rgb(255, 56, 56);
+            }
+
+            [data-type="item10"] { 
+                background-color: rgb(216, 0, 0);
+            }
+
+            [data-type="item11"] { 
+                background-color: rgb(255, 56, 56);
+            }
+
+            [data-type="item12"] { 
+                background-color: rgb(255, 56, 56);
+            }
+
+
+
+            .item {
+                width: 30px;
+                height: 30px;
+                
+                border-radius: 3px; 
+            }
+
+            .under-container {
+                width: 67%;
+                height: 15%;
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+
+                margin-top: 30px;
+            }
+
+            #blue {
+
+                margin: 0px; 
+            } 
+
+            #vendor {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .container:hover {
+            background-color: white;
+        }
+
+        #container-1 {
+            height: 500px;
+
+            overflow-y: scroll;
+        }
+
+        #container-2 {
+            width: 800px;
+            height: 500px;
+        }
+    }
+}

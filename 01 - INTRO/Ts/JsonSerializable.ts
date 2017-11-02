@@ -1,0 +1,4 @@
+interface JsonSerializable {
+
+    jsonSerialize(): {}
+}

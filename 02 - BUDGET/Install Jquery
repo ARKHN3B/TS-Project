@@ -1,0 +1,5 @@
+# 1) $ npm install jquery --save
+
+# 2) $ npm install @types/jquery --save
+
+# 3) Dans index.html :      <script src="node_modules/jquery/dist/jquery.min.js"></script>

@@ -1,0 +1,25 @@
+{
+  "name": "sodtswines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
+    "systemjs": "^0.20.19",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.2.15",
+    "jquery": "^3.2.1"
+  }
+}

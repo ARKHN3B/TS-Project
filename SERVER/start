@@ -1,0 +1,23 @@
+1) $ tsc --init
+
+2) $ typings init
+
+3)  typings install dt~node --save --global
+    typings install dt~es6-shim --save --global
+    typings install dt~express --save --global
+    typings install dt~serve-static --save --global
+    typings install dt~express-serve-static-core --save --global
+    typings install dt~mime --save --global
+
+4) Installation des dépendances :
+        $ npm init -y
+        $ npm -i --save-dev express
+
+
+
+When all is done : 
+
+    $ tsc -W
+    $ node/build/server.js
+
+    Ecoute sur le port 3088, url : localhost:3088/welcome

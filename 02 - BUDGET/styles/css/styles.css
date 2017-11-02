@@ -1,0 +1,27 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  background-color: #f84d33;
+  width: 100%;
+  height: 100vh; }
+  body #spent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  body #butt-form {
+    background-color: #c7c9c5;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    border-radius: 50%; }
+  body form {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    width: 20%;
+    display: flex;
+    flex-direction: column; }
